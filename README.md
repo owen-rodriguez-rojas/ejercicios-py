@@ -1,74 +1,99 @@
-# ============================================================
-# PROYECTO: CRUD DE USUARIOS EN CONSOLA (PYTHON)
-# ============================================================
-#
-# OBJETIVO:
-# Desarrollar un programa en Python que permita gestionar
-# usuarios mediante operaciones básicas de tipo CRUD:
-#
-# - Crear usuarios
-# - Leer (mostrar) usuarios
-# - Actualizar (editar) usuarios
-# - Eliminar usuarios
-#
-# ------------------------------------------------------------
-# DESCRIPCIÓN GENERAL:
-# El programa debe ejecutarse en consola y mostrar un menú
-# interactivo que permita al usuario seleccionar diferentes
-# opciones. Los datos se almacenarán en memoria utilizando
-# estructuras como listas y diccionarios.
-#
-# ------------------------------------------------------------
-# FUNCIONALIDADES REQUERIDAS:
-#
-# 1. Crear usuario:
-#    - Solicitar al usuario un nombre y una edad.
-#    - Guardar la información en una lista de usuarios.
-#
-# 2. Mostrar usuarios:
-#    - Mostrar todos los usuarios registrados.
-#    - Cada usuario debe tener un índice o identificador.
-#
-# 3. Editar usuario:
-#    - Permitir seleccionar un usuario por su índice.
-#    - Modificar su nombre y/o edad.
-#
-# 4. Eliminar usuario:
-#    - Permitir seleccionar un usuario por su índice.
-#    - Eliminarlo de la lista.
-#
-# 5. Salir:
-#    - Finalizar la ejecución del programa.
-#
-# ------------------------------------------------------------
-# REQUISITOS TÉCNICOS:
-#
-# - Usar listas para almacenar los usuarios.
-# - Cada usuario debe representarse como un diccionario.
-# - Implementar funciones para cada operación (crear, leer,
-#   actualizar, eliminar).
-# - Utilizar estructuras de control:
-#     * Condicionales (if, elif, else)
-#     * Ciclos (while, for)
-# - Manejar posibles errores (ej. índices inválidos).
-#
-# ------------------------------------------------------------
-# OBJETIVO DE APRENDIZAJE:
-#
-# - Aplicar conceptos básicos de Python:
-#     * Variables
-#     * Listas y diccionarios
-#     * Funciones
-#     * Condicionales
-#     * Ciclos
-#     * Entrada de datos (input)
-#
-# - Desarrollar lógica de programación.
-# - Comprender la estructura de un programa real.
-#
-# ------------------------------------------------------------
-# NOTA:
-# Este proyecto debe ser desarrollado sin copiar código
-# completo. Se permite investigar, pero es importante intentar
-# resolver los problemas de forma autónoma.
-# ============================================================
+# 🧑‍💻 CRUD de Usuarios en Consola (Python)
+
+## 📌 Descripción
+Este proyecto consiste en el desarrollo de un sistema CRUD básico en consola utilizando Python.  
+Permite gestionar usuarios mediante operaciones fundamentales de programación.
+
+---
+
+## 🎯 Objetivo
+Aplicar los conocimientos básicos de Python para construir un programa funcional que permita:
+
+- Crear usuarios
+- Visualizar usuarios
+- Editar usuarios
+- Eliminar usuarios
+
+---
+
+## ⚙️ Funcionalidades
+
+### ➕ Crear usuario
+- Solicita nombre y edad
+- Guarda la información en memoria
+
+### 📋 Mostrar usuarios
+- Lista todos los usuarios registrados
+- Muestra un índice para identificarlos
+
+### ✏️ Editar usuario
+- Permite seleccionar un usuario por su índice
+- Modifica su nombre y/o edad
+
+### ❌ Eliminar usuario
+- Permite seleccionar un usuario por su índice
+- Elimina el usuario de la lista
+
+### 🚪 Salir
+- Finaliza la ejecución del programa
+
+---
+
+## 🧠 Estructura del programa
+
+El sistema debe incluir:
+
+- Menú interactivo en consola
+- Uso de listas para almacenar datos
+- Uso de diccionarios para representar usuarios
+- Funciones para cada operación
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- Python 3
+
+---
+
+## 📚 Conceptos aplicados
+
+- Variables
+- Listas
+- Diccionarios
+- Funciones (`def`)
+- Condicionales (`if`, `elif`, `else`)
+- Ciclos (`while`, `for`)
+- Entrada de datos (`input`)
+
+---
+
+## 🚧 Requisitos
+
+- No copiar código completo
+- Intentar resolver los problemas de forma autónoma
+- Utilizar IA solo como apoyo
+
+---
+
+## 🎓 Objetivo de aprendizaje
+
+- Desarrollar lógica de programación
+- Entender la estructura de un programa real
+- Prepararse para proyectos más complejos (APIs, bases de datos, etc.)
+
+---
+
+## 🚀 Próximas mejoras (opcional)
+
+- Validación de datos
+- Manejo de errores
+- Guardado en archivos (`.json`)
+- Uso de base de datos (SQLite/MySQL)
+- Crear versión con interfaz web (Flask/FastAPI)
+
+---
+
+## 🧑‍💻 Autor
+
+- Tu nombre aquí
