@@ -6,6 +6,7 @@ from funciones import crear_usuario, mostrar_usuario, editar_usuario, eliminar_u
 while True:
     print("\n- - - MENU - - -")
     print("1. Crear Usuario\n2. Mostrar Usuario\n3. Editar Usuario\n4. Eliminar Usuario\n5. Salir")
+    
     opc = input("Digite la opción deseada: ")
     while opc.isdigit() == False or int(opc) < 1 or int(opc) > 5:
         print("Valor no valido o fuera de rango, intentar nuevamente.")
@@ -21,7 +22,7 @@ while True:
     elif opc == 4:
         eliminar_usuario()
     elif opc == 5:
-        print("Cerrando Menú")
+        print("Cerrando Menú...")
         break        
         
     
