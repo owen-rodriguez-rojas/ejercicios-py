@@ -1,8 +1,9 @@
 # 🧑‍💻 CRUD de Usuarios en Consola (Python)
 
 ## 📌 Descripción
-Este proyecto consiste en el desarrollo de un sistema CRUD básico en consola utilizando Python.  
-Permite gestionar usuarios mediante operaciones fundamentales de programación.
+Este proyecto consiste en el desarrollo de un sistema CRUD (Crear, Leer, Actualizar y Eliminar) en consola utilizando Python.
+
+Permite gestionar usuarios mediante operaciones fundamentales, aplicando estructuras de control, validaciones de datos y organización modular del código.
 
 ---
 
@@ -19,19 +20,22 @@ Aplicar los conocimientos básicos de Python para construir un programa funciona
 ## ⚙️ Funcionalidades
 
 ### ➕ Crear usuario
-- Solicita nombre y edad
-- Guarda la información en memoria
+- Solicita nombre, apellido y edad
+- Genera un ID único automático
+- Valida que los datos sean correctos
 
 ### 📋 Mostrar usuarios
 - Lista todos los usuarios registrados
-- Muestra un índice para identificarlos
+- Muestra ID, nombre, apellido y edad
 
 ### ✏️ Editar usuario
-- Permite seleccionar un usuario por su índice
-- Modifica su nombre y/o edad
+- Permite seleccionar un usuario por su ID
+- Permite modificar múltiples campos (nombre, apellido o edad)
+- Incluye validación de datos
 
 ### ❌ Eliminar usuario
-- Permite seleccionar un usuario por su índice
+- Permite seleccionar un usuario por su ID
+- Solicita confirmación antes de eliminar
 - Elimina el usuario de la lista
 
 ### 🚪 Salir
@@ -41,12 +45,13 @@ Aplicar los conocimientos básicos de Python para construir un programa funciona
 
 ## 🧠 Estructura del programa
 
-El sistema debe incluir:
+El sistema incluye:
 
 - Menú interactivo en consola
 - Uso de listas para almacenar datos
 - Uso de diccionarios para representar usuarios
-- Funciones para cada operación
+- Separación en módulos (`funciones.py` y `CRUD.py`)
+- Funciones independientes para cada operación
 
 ---
 
@@ -64,33 +69,53 @@ El sistema debe incluir:
 - Funciones (`def`)
 - Condicionales (`if`, `elif`, `else`)
 - Ciclos (`while`, `for`)
-- Entrada de datos (`input`)
+- Validación de datos (`isdigit`, `isalpha`, `strip`)
+- Modularización del código
 
 ---
 
-## 🚧 Requisitos
+## 📂 Estructura del proyecto
+CRUD.py → Menú principal del sistema
+funciones.py → Lógica del CRUD
+README.md → Documentación del proyecto
 
-- No copiar código completo
-- Intentar resolver los problemas de forma autónoma
-- Utilizar IA solo como apoyo
-
----
-
-## 🎓 Objetivo de aprendizaje
-
-- Desarrollar lógica de programación
-- Entender la estructura de un programa real
-- Prepararse para proyectos más complejos (APIs, bases de datos, etc.)
 
 ---
 
-## 🚀 Próximas mejoras (opcional)
+## 🚀 Cómo ejecutar
 
-- Validación de datos
-- Manejo de errores
-- Guardado en archivos (`.json`)
-- Uso de base de datos (SQLite/MySQL)
-- Crear versión con interfaz web (Flask/FastAPI)
+1. Clonar el repositorio:
+git clone https://github.com/owen-rodriguez-rojas/basiCrud-py.git
+
+2. Entrar al proyecto:
+cd nombrecarpeta
+
+3. Ejecutar:
+python CRUD.py
+
+
+
+---
+
+## 🎓 Aprendizajes
+
+Durante este proyecto se desarrollaron habilidades como:
+
+- Lógica de programación
+- Validación de entradas del usuario
+- Manejo de estructuras de datos
+- Organización del código en módulos
+- Creación de programas interactivos
+
+---
+
+## 🚀 Próximas mejoras
+
+- Guardado de datos en archivos (`.json`)
+- Uso de clases (Programación Orientada a Objetos)
+- Conexión a base de datos (SQLite/MySQL)
+- Interfaz gráfica (Tkinter)
+- Versión web (Flask o FastAPI)
 
 ---
 
